@@ -34,24 +34,24 @@
           <div class="description-text">
             <div class="description-info">
               <span class="description-title">Disciplina:</span>
-              <span class="description-info">Business Intelligence</span>
+              <span class="description-text-info">Business Intelligence</span>
             </div>
 
             <div class="description-info">
               <span class="description-title">Universidade:</span>
-              <span class="description-info">Pontifícia Universidade Católica de Minas Gerais</span>
+              <span class="description-text-info">Pontifícia Universidade Católica de Minas Gerais</span>
             </div>
 
             <div class="description-info">
               <span class="description-title">Orientador:</span>
-              <span class="description-info">Clóvis Lemos Tavares</span>
+              <span class="description-text-info">Clóvis Lemos Tavares</span>
             </div>
 
             <div class="description-info-2">
               <span class="description-title">Alunos:</span>
               <ul>
                 <li class="description-info">Maria Luisa Couto Fernandes</li>
-                <li class="description-info">Matheus Gabriel G Cunha de Oliveira</li>
+                <li class="description-text-info">Matheus Gabriel G Cunha de Oliveira</li>
               </ul>
             </div>
           </div>
@@ -126,7 +126,7 @@
     max-width: 900px;
   }
 
-  .description-info {
+  .description-text-info {
     display: flex;
     gap: 12px;
   }
