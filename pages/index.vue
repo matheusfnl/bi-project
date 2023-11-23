@@ -33,25 +33,25 @@
 
           <div class="description-text">
             <div class="description-info">
-              <span class="title">Disciplina:</span>
-              <span class="info">Business Intelligence</span>
+              <span class="description-title">Disciplina:</span>
+              <span class="description-info">Business Intelligence</span>
             </div>
 
             <div class="description-info">
-              <span class="title">Universidade:</span>
-              <span class="info">Pontifícia Universidade Católica de Minas Gerais</span>
+              <span class="description-title">Universidade:</span>
+              <span class="description-info">Pontifícia Universidade Católica de Minas Gerais</span>
             </div>
 
             <div class="description-info">
-              <span class="title">Orientador:</span>
-              <span class="info">Clóvis Lemos Tavares</span>
+              <span class="description-title">Orientador:</span>
+              <span class="description-info">Clóvis Lemos Tavares</span>
             </div>
 
             <div class="description-info-2">
-              <span class="title">Alunos:</span>
+              <span class="description-title">Alunos:</span>
               <ul>
-                <li class="info">Maria Luisa Couto Fernandes</li>
-                <li class="info">Matheus Gabriel G Cunha de Oliveira</li>
+                <li class="description-info">Maria Luisa Couto Fernandes</li>
+                <li class="description-info">Matheus Gabriel G Cunha de Oliveira</li>
               </ul>
             </div>
           </div>
@@ -126,9 +126,22 @@
     max-width: 900px;
   }
 
+  .description-info {
+    display: flex;
+    gap: 12px;
+  }
+
   .description-info-2 {
     display: flex;
     gap: 26px;
+  }
+
+  .description-title {
+    font-weight: 600;
+  }
+
+  .description-info {
+    font-weight: 300;
   }
 
   button {
