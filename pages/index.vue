@@ -1,27 +1,60 @@
 <template>
   <div>
     <div class="project-title-container">
-      <div class="content-wrapper">
-        <div class="title-text">
-          <span>Power BI Project</span>
+      <div class="content-container">
+        <div class="content-wrapper">
+          <div class="title-text">
+            <span>Power BI Project</span>
+          </div>
+
+          <div class="description-text">
+            <p>
+              O seguinte dashboard foi projetado para proporcionar uma visão abrangente e detalhada sobre restaurante localizados na região Sudeste do Brasil, destacando aspectos cruciais relacionados a eles. Ao navegar por este painel interativo, os usuários terão acesso a um conjunto de informações sobre diversas categorias de restaurantes, suas localidades, avaliações e médias de custo.
+            </p>
+            <p>
+              A primeira seção do dashboard concentra-se nos seus dados de identificação,  como nome, endereço, estado e cidade, permitindo uma análise aprofundada por região. Os usuários poderão explorar diferentes especialidades, desde culinárias internacionais até opções de fast food, proporcionando uma compreensão abrangente do cenário gastronômico representado.
+            </p>
+            <p>
+              A geolocalização dos restaurantes é crucial para entender a distribuição e a acessibilidade. O dashboard oferece recursos interativos para mapear a presença dos restaurantes em diferentes regiões, facilitando uma análise visual e identificação de padrões.
+            </p>
+            <p>
+              A seção de avaliações destaca a qualidade percebida pelos clientes, proporcionando uma visão instantânea das experiências passadas. Gráficos intuitivos e métricas consolidadas permitem identificar padrões de satisfação do cliente e áreas de melhoria.
+            </p>
+            <p>
+              A análise das médias de custo oferece uma perspectiva para proprietários de restaurantes e clientes, fornecendo insights sobre os diferentes segmentos de preço.
+            </p>
+          </div>
         </div>
 
-        <div class="description-text">
-          <p>
-            O seguinte dashboard foi minuciosamente projetado para proporcionar uma visão abrangente e detalhada sobre restaurante localizados na região Sudeste do Brasil, destacando aspectos cruciais relacionados a eles. Ao navegar por este painel interativo, os usuários terão acesso a um conjunto de informações sobre diversas categorias de restaurantes, suas localidades, avaliações e médias de custo.
-          </p>
-          <p>
-            A primeira seção do dashboard concentra-se nos seus dados de identificação,  como nome, endereço, estado e cidade, permitindo uma análise aprofundada por região. Os usuários poderão explorar diferentes especialidades, desde culinárias internacionais até opções de fast food, proporcionando uma compreensão abrangente do cenário gastronômico representado.
-          </p>
-          <p>
-            A geolocalização dos restaurantes é crucial para entender a distribuição e a acessibilidade. O dashboard oferece recursos interativos para mapear a presença dos restaurantes em diferentes regiões, facilitando uma análise visual e identificação de padrões.
-          </p>
-          <p>
-            A seção de avaliações destaca a qualidade percebida pelos clientes, proporcionando uma visão instantânea das experiências passadas. Gráficos intuitivos e métricas consolidadas permitem identificar padrões de satisfação do cliente e áreas de melhoria.
-          </p>
-          <p>
-            A análise das médias de custo oferece uma perspectiva para proprietários de restaurantes e clientes, fornecendo insights sobre os diferentes segmentos de preço.
-          </p>
+        <div class="content-wrapper">
+          <div class="title-text">
+            <span>Sobre</span>
+          </div>
+
+          <div class="description-text">
+            <div class="description-info">
+              <span class="title">Disciplina:</span>
+              <span class="info">Business Intelligence</span>
+            </div>
+
+            <div class="description-info">
+              <span class="title">Universidade:</span>
+              <span class="info">Pontifícia Universidade Católica de Minas Gerais</span>
+            </div>
+
+            <div class="description-info">
+              <span class="title">Orientador:</span>
+              <span class="info">Clóvis Lemos Tavares</span>
+            </div>
+
+            <div class="description-info-2">
+              <span class="title">Alunos:</span>
+              <ul>
+                <li class="info">Maria Luisa Couto Fernandes</li>
+                <li class="info">Matheus Gabriel G Cunha de Oliveira</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -63,6 +96,11 @@
     gap: 18px;
   }
 
+  .content-container {
+    display: flex;
+    gap: 16px;
+  }
+
   .content-wrapper {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
@@ -85,6 +123,11 @@
     font-weight: 300;
     margin-bottom: 20px;
     max-width: 900px;
+  }
+
+  .description-info-2 {
+    display: flex;
+    gap: 26px;
   }
 
   button {
