@@ -75,6 +75,7 @@
     margin-top: 16vh;
     gap: 16px;
     height: 60vh;
+    cursor: default;
   }
 
   .att-info-container {
