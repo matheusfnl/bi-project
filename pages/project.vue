@@ -1,6 +1,6 @@
 <template>
   <div class="iframe-area">
-    <iframe title="Report Section" width="1200" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiZDM1ZTQzZDgtZmFlYi00ZjJkLWFlZTAtZWMzOTkxZDg3Nzk2IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+    <iframe title="Trabalho BI FINAL" width="1200" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiZDM1ZTQzZDgtZmFlYi00ZjJkLWFlZTAtZWMzOTkxZDg3Nzk2IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
   </div>
 </template>
 
